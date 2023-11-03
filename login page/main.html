@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section>
+        <div class="main_container">
+            <div class="background_image">
+                <div class="side">
+                    <img src="../login page/Images/image 1.PNG" alt="" id="first_image">
+                    <img src="../login page/Images/image 2.PNG" alt="" id="second-image" style="display: none;">
+                    <img src="../login page/Images/image 3.PNG" alt="" id="third-image" style="display: none;">
+
+                </div>
+
+                <div id="top_image">
+                    <div>
+                        <img src="../login page/Images/image 1.PNG" alt="" class="image01" id="image01" >
+                        <img src="../login page/Images/image 2.PNG" alt="" class="image02" id="image02" style="display: none;">
+                        <img src="../login page/Images/image 3.PNG" alt="" class="image03" id="image03" style="display: none;">
+
+                    </div>
+
+                    <div class="circle_div">
+                        <div class="circle1" id="circle1" onclick="circle1()"></div>
+                        <div class="circle2" id="circle2" onclick="circle2()"></div>
+                        <div class="circle3" id="circle3" onclick="circle3()"></div>
+                        <div class="circle4" id="circle4" onclick="circle4()"></div>
+                        <div class="circle5" id="circle5" onclick="circle5()"></div>
+                        <div class="circle6" id="circle6" onclick="circle6()"></div>
+
+                    </div>
+
+                    <div>
+                        <h1 class="ram_ghat_name1" id="ram-ghat-name">Ram Ghat</h1>
+                        <h1 class="Mahakaleshwar_name2" style="display: none;" id="mahakaleshwar-name">Mahakaleshwar Temple</h1>
+                        <h1 class="ved_shala_name3" style="display: none;" id="ved-shala-name">Ved Shala</h1>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="login_page">
+                <img src="../login page/Images/Ujjain-img.png" alt="" class="ujjain_name_image">
+                <h2 class="welcome_heading">Welcome to</h2>
+                <h1 class="ujjain_heading">Ujjain Dharshan</h1>
+                <h2 class="enter_your_account">Please Login into Your Account</h2>
+
+                <form id="form1">
+                    <input type="number" name="number" placeholder="Mobile Number" id="mobile_input"><br>
+                    <input type="password" name="password" placeholder="Password" id="password_input"><br>
+                    <input type="submit" name="login" value="Login" id="login_button">
+                </form>
+
+                <form id="form2" style="display: none">
+                    <input type="text" name="name" placeholder="Your Name" class="your_name" id="your-name"><br>
+                    <input type="email" name="email" placeholder="Email Address" class="your_name" id="email-address"><br>
+                    <input type="text" name="number" placeholder="Mobile Number" class="your_name" id="mobile-number"><br>
+                    <input type="password" name="password" placeholder="Password" class="your_name" id="password"><br>
+                    <input type="submit" name="login" value="Register" id="login_button02">
+
+                </form>
+
+                <form id="form3" style="display: none;">
+                    <input type="number" name="mobile number" placeholder="Mobile Number" id="reset-mobile-number">
+                    <input type="password" name="new password" placeholder="New Password" id="new-password"><br>
+                    <input type="password" name="confirm password" placeholder="Confirm Password" id="confirm-password"><br>
+                    <input type="submit" name="login" value="Submit" id="login_button03">
+                </form>
+
+
+
+
+
+                <div id="first-page">
+                    <h1 class="register_line">Don't have Account ?
+                        <span class="desing_register" onclick="registerPage()"> Register </span> Here</h1> 
+                    <h1 class="reset_line">Forget Password ? <span class="desing_reset" onclick="resetPage()">Reset</span> Now</h1>
+                </div>
+
+                <div id="exit-login" style="display: none">
+                    <h1 class="already_account">Already have an Account? <span class="design_login" onclick="loginPage01()">login </span> here</h1>
+                </div>
+
+                <div id="exit-from-reset-login" style="display: none">
+                    <h1 class="remember_account">Remember your Password? <span class="remember_exit" onclick="loginPage02()">login </span> here</h1>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+        
+
+
+    </section>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

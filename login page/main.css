@@ -1,0 +1,374 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::placeholder{
+    color: #FF5F1F;
+}
+
+
+.main_container {
+    display: flex;
+    height: 470px;
+    width: 850px;
+    margin: auto;
+}
+
+#form1 {
+    display: flex;
+    flex-direction: column;
+}
+#form2 {
+    display: flex;
+    flex-direction: column;
+}
+#form3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.side {
+    display: flex;
+    height: 470px;
+    width: 425px;
+    filter: blur(1.5px);
+    
+}
+
+#top_image {
+    position: relative;
+    bottom: 360px;
+    left: 100px;
+   
+} 
+
+.image01 {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.image02 {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.image03 {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.ujjain_name_image {
+    width: 157px;
+    height: 58px;
+    position: relative;
+    top: 58px;
+    right: 10px;
+
+}
+
+.welcome_heading {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 550;
+    position: relative;
+    top: 40px;
+}
+
+.login_page {
+    margin-left: 100px;
+}
+
+.circle_div {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 2px;
+   
+}
+
+
+.circle1 {
+    height: 8px;
+    width: 8px;
+    border: solid 1.5px white;
+    border-radius: 50px;
+    margin-left: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.circle2 {
+    height: 8px;
+    width: 8px;
+    border: solid 1.5px white;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.circle3 {
+    height: 8px;
+    width: 8px;
+    border: solid 1.5px white;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.circle4 {
+    height: 8px;
+    width: 8px;
+    border: solid 1.5px white;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.circle5 {
+    height: 8px;
+    width: 8px;
+    border: solid 1.5px white;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.circle6 {
+    height: 8px;
+    width: 8px;
+    border: solid 1.5px white;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.ujjain_heading {
+    font-family: sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    color: #FF5F1F;
+    position: relative;
+    top: 18px;
+}
+.ram_ghat_name1 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 77px;
+    bottom: 10px;
+}
+
+.Mahakaleshwar_name2 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+
+}
+.ved_shala_name3 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 77px;
+    bottom: 10px;
+}
+
+.enter_your_account {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 550;
+    position: relative;
+    top: 3px;
+}
+
+.register_line {
+    font-family: sans-serif;
+    font-size: 8px;
+    color: grey;
+    font-weight: 550;
+}
+
+.reset_line {
+    font-family: sans-serif;
+    font-size: 8px;
+    color: grey;
+    font-weight: 550;
+
+}
+
+.desing_register {
+    color: #FF5F1F;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.desing_reset {
+    color: #FF5F1F;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.design_login {
+    color: #FF5F1F;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.remember_exit {
+    color: #FF5F1F;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#mobile_input {
+    border: solid 1px #FF5F1F;
+    border-radius: 5px;
+    height: 30px;
+    width: 236px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    background-color: white;
+    color: #FF5F1F;
+}
+
+#new-password {
+    border: solid 1px #FF5F1F;
+    border-radius: 5px;
+    height: 30px;
+    width: 236px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    background-color: white;
+    color: #FF5F1F;
+    margin-bottom: 15px;
+}
+
+#reset-mobile-number {
+    border: solid 1px #FF5F1F;
+    border-radius: 5px;
+    height: 30px;
+    width: 236px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    background-color: white;
+    color: #FF5F1F;
+    margin-bottom: 15px;
+
+}
+
+#password_input {
+    border: solid 1px #FF5F1F;
+    border-radius: 5px;
+    height: 30px;
+    width: 236px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    background-color: white;
+    color: #FF5F1F;
+}
+
+#confirm-password {
+    border: solid 1px #FF5F1F;
+    border-radius: 5px;
+    height: 30px;
+    width: 236px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    background-color: white;
+    color: #FF5F1F;
+    margin-bottom: 15px;
+}
+
+.your_name {
+    border: solid 1px #FF5F1F;
+    border-radius: 5px;
+    height: 30px;
+    width: 236px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    background-color: white;
+    color: #FF5F1F;
+    margin-bottom: 13px;
+}
+
+#login_button{
+    background-color: #FF5F1F;
+    color: white;
+    height: 28px;
+    width: 248px;
+    border: none;
+    border-radius: 5px;
+    font-size: 8px;
+    font-family: sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+#login_button02{
+    background-color: #FF5F1F;
+    color: white;
+    height: 28px;
+    width: 248px;
+    border: none;
+    border-radius: 5px;
+    font-size: 8px;
+    font-family: sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+#login_button03{
+    background-color: #FF5F1F;
+    color: white;
+    height: 28px;
+    width: 249px;
+    border: none;
+    border-radius: 5px;
+    font-size: 8px;
+    font-family: sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.already_account{
+    font-family: sans-serif;
+    font-size: 8px;
+    color: grey;
+    font-weight: 550;
+
+}
+
+.remember_account {
+    font-family: sans-serif;
+    font-size: 8px;
+    color: grey;
+    font-weight: 550;
+
+}
+
